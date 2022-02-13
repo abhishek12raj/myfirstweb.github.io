@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:hover {
+
+            background-color: rgb(226, 43, 43);
+
+        }
+
+        .navbar {
+
+            background-color: rgb(14, 12, 12);
+            border-radius: 30PX 20PX;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13PX 20PX;
+        }
+
+        .navbar ul {
+            overflow: auto;
+            color: white;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 3px 3px;
+        }
+
+        .SEAECH {
+            float: RIGHT left;
+            padding: 40px;
+
+        }
+
+        .navbar input {
+
+            border: 2px solid rgb(185, 235, 7);
+            border-radius: 4px;
+        }
+
+        body {
+
+            background-image: url(https://i2.wp.com/www.thecreativedesignfactory.com/templates/the-creative-design-factory/images/animated-web-design-slideshow-background.gif?resize=616%2C281);
+            color: aqua;
+            font-size:xL-large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: rgb(36, 146, 64);
+            background-repeat: no-repeat;
+            background-size: contain;
+
+            background-image: url( https://www.yachtsalesinternational.com/wp/wp-content/uploads/yachtsalesinternational.com/2019/09/instagram-png-instagram-png-logo-1455-1024x1024.png);
+            background-position: center;
+        }
+        .PRE{
+            color: white;
+            width: 20PX;
+        }
+        input[type=text], input[type=password], textarea {  
+  width:100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  
+}  
+.container {  
+    padding: 50px;  
+    
+}    .registerbtn {  
+  background-color: #f70a0a;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+
+                <DIV class="SEARCH"></DIV>
+                <input type="text" name="SEAECH" id="SEARCH" placeholder="search this website">
+            </ul>
+
+        </nav>
+    </header>
+    <div class="footer">
+        <footer>
+            <h1>CONTACT US ON </h1>
+
+        </footer>
+    </div>
+
+        <form>  
+            <div class="container">  
+            <center>  <h1> Student Registeration Form</h1> </center>  
+            <hr>  
+            <label> Firstname </label>   
+          <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+          <label> Middlename: </label>   
+          <input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+          <label> Lastname: </label>    
+          <input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+          <div>  
+          <label>   
+          Course :  
+          </label>   
+            
+          <select>  
+          <option value="Course">Course</option>  
+          <option value="BCA">BCA</option>  
+          <option value="BBA">BBA</option>  
+          <option value="B.Tech">B.Tech</option>  
+          <option value="MBA">MBA</option>  
+          <option value="MCA">MCA</option>  
+          <option value="M.Tech">M.Tech</option>  
+          </select>  
+          </div>  
+          <div>  
+          <label>   
+          Gender :  
+          </label><br>  
+          <input type="radio" value="Male" name="gender" checked > Male   
+          <input type="radio" value="Female" name="gender"> Female   
+          <input type="radio" value="Other" name="gender"> Other  
+            
+          </div>  
+          <label>   
+          Phone :  
+          </label>  
+          <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+          <input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+          Current Address :  
+          <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+          </textarea>  
+           <label for="email"><b>Email</b></label>  
+           <input type="text" placeholder="Enter Email" name="email" required>  
+            
+              <label for="psw"><b>Password</b></label>  
+              <input type="password" placeholder="Enter Password" name="psw" required>  
+            
+              <label for="psw-repeat"><b>Re-type Password</b></label>  
+              <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+              <button type="submit" class="registerbtn">Register</button>    
+          </form>
+    
+   
+</body>
+
+</html>
